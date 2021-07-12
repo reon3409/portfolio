@@ -1,0 +1,276 @@
+img {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+}
+
+.sec-title {
+  font-size: 3rem;
+  color: #707070;
+  text-align: center;
+  padding-top: 80px;
+  margin-bottom: 60px;
+}
+
+header {
+  color: #e0e0e0;
+  background-image: url("background.png");
+  text-align: center;
+  height: 100vh;
+}
+
+header img {
+  width: 50px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 30px;
+}
+
+.site-title h2 {
+  padding-top: 30vh;
+  padding-bottom: 20px;
+  letter-spacing: 2px;
+  font-size: 3rem;
+}
+
+.site-title h1 {
+  letter-spacing: 5px;
+  font-size: 4rem;
+}
+
+#about {
+  height: 100vh;
+}
+
+.about-container {
+  margin-left: 20%;
+  font-size: 1rem;
+  padding-bottom: 60px;
+}
+
+.about-container h2 {
+  margin: 15px 0;
+}
+
+.about-container a {
+  color: blue;
+}
+
+.about-container dl {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-size: 1.4rem;
+}
+
+.about-container dt {
+  width: 20%;
+  margin-bottom: 30px;
+}
+
+.about-container dd {
+  width: 80%;
+  margin-bottom: 30px;
+}
+
+#works {
+  background-color: rgba(253, 253, 211, 0.7);
+  text-align: center;
+  margin: 0 auto;
+}
+
+.work-container {
+  text-align: center;
+}
+
+.work-container ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 15vh;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 80px;
+}
+
+.work-container li {
+  margin: 30px 40px 60px 40px;
+}
+
+.work-container img {
+  display: block;
+  width: 35vh;
+  border-radius: 50%;
+}
+
+.work-container p {
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.contact-container {
+  text-align: center;
+}
+
+.contact-container input,
+.contact-container textarea {
+  border: solid #707070 1px;
+  width: 50%;
+}
+
+.contact-container input {
+  height: 50px;
+  margin-bottom: 30px;
+}
+
+.contact-container textarea {
+  margin-bottom: 60px;
+  height: 150px;
+}
+
+.btn {
+  width: 100px;
+  height: 50px;
+  margin: 0 auto;
+  background-color: #707070;
+  color: #e0e0e0;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #707070;
+  width: 200px;
+}
+
+footer a {
+  color: #707070;
+}
+
+footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 30px;
+  margin-top: 60px;
+}
+
+footer li {
+  margin-right: 30px;
+}
+
+.menu-bar,
+.open,
+.cross {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.open {
+  display: none;
+  height: 100vh;
+  background-color: #707070;
+}
+
+.open a {
+  color: #e0e0e0;
+  font-size: 3rem;
+}
+
+.open ul {
+  padding-top: 30vh;
+}
+
+.open li {
+  padding: 10px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 670px) {
+  .site-title h2 {
+    font-size: 2rem;
+  }
+  .site-title h1 {
+    font-size: 3rem;
+  }
+  #about {
+    height: auto;
+  }
+  .about-container {
+    margin: 0 auto;
+    font-size: 1rem;
+    padding-bottom: 60px;
+  }
+  .about-container h2 {
+    margin: 15px auto;
+    text-align: center;
+  }
+  .about-container dl {
+    display: block;
+    font-size: 1.4rem;
+    text-align: center;
+    margin-top: 60px;
+  }
+  .about-container dt {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  .about-container dd {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  #works {
+    background-color: rgba(253, 253, 211, 0.7);
+  }
+  .work-container {
+    text-align: center;
+  }
+  .work-container ul {
+    display: block;
+  }
+  .work-container li {
+    margin: 0 auto 40px auto;
+  }
+  .work-container li img {
+    display: block;
+    width: 50%;
+    border-radius: 50%;
+    margin: 0 auto;
+  }
+  .work-container li p {
+    font-size: 0.9rem;
+    margin-top: 8px;
+  }
+  footer ul {
+    margin: 30px;
+    margin-top: 60px;
+  }
+  footer li {
+    margin-right: 20px;
+  }
+  .open a {
+    font-size: 2rem;
+  }
+  .open li {
+    padding: 20px;
+  }
+}
+/*# sourceMappingURL=stylesheet.css.map */
