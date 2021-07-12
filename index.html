@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reon-Portfolio</title>
+  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+  <link rel="stylesheet" href="css/stylesheet.css">
+  <link rel="stylesheet" href="css/stylesheet.scss">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+  <header>
+    <div class="menu">
+    <img src="img/Menu.png" alt="menu-bar" class="menu-bar">
+    <div class="open">
+      <img src="img/cross.png" alt="return" class="cross">
+      <div class="menu-list">
+        <nav>
+          <ul>
+            <li class="home"><a href="#">Home</a></li>
+            <li class="about"><a href="#about">About</a></li>
+            <li class="works"><a href="#works">Works</a></li>
+            <li class="contact"><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+        
+    <div class="site-title">
+      <h2>Web Design</h2>
+      <h1>KAWAGUCHI<br>REON</h1>
+    </div>
+  </header>
+
+  <main>
+    <section id="about">
+      <h1 class="sec-title">About</h1>
+      <div class="about-container">
+        <h2><ruby>川口　怜音<rt>かわぐち　れおん</rt></ruby></h2>
+        <h2>Kawaguchi Reon</h2>
+        <dl>
+          <dt>所在地</dt>
+          <dd>群馬県高崎市</dd>
+          <dt>TEL</dt>
+          <dd>090-3955-1946</dd>
+          <dt>E-mail</dt>
+          <dd>reon0440@gmail.com</dd>
+          <dt>Twitter</dt>
+          <dd><a href="https://twitter.com/meron_papaaan" target="_blank">@maeron_papaaan</a></dd>
+        </dl>
+      </div>
+    </section>
+    <section id="works">
+      <h1 class="sec-title">Works</h1>
+      <div class="work-container">
+      <ul>
+        <div class="work-list">
+          <li>
+            <a href="https://reon3409.github.io/restaurant/" target="_blank"><img src="img/restaurant.png" alt="restaurant"></a>
+            <p class="restaurant">Restaurant（※架空の会社です）</p>
+          </li>
+        </div>
+        <div class="work-list">
+          <li>
+            <img src="img/none.png" alt="none">
+            <p class="none">Nothing</p>
+          </li>
+        </div>
+        <div class="work-list">
+          <li>
+            <img src="img/none.png" alt="none">
+            <p class="none">Nothing</p>
+          </li>
+        </div>
+        <div class="work-list">
+          <li>
+            <img src="img/none.png" alt="none">
+            <p class="none">Nothing</p>
+          </li>
+        </div>
+        <div class="work-list">
+          <li>
+            <img src="img/none.png" alt="none">
+            <p class="none">Nothing</p>
+          </li>
+        </div>
+        <div class="work-list">
+          <li>
+            <img src="img/none.png" alt="none">
+            <p class="none">Nothing</p>
+          </li>
+        </div>
+      </ul>
+    </div>
+    </section>
+    <section id="contact">
+      <h1 class="sec-title">Contact</h1>
+      <div class="contact-container">
+        <form action="mailto:reon0440@gmail.com" method="POST">
+          <input type="text" name="yourname" placeholder="お名前">
+          <input type="text" name="yourmail" placeholder="メールアドレス">
+          <textarea name="yourmessage" id="message" placeholder="お問い合わせ内容"></textarea>
+          <div class="btn"><input type="submit" value="送信"></div>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <nav>
+      <ul>
+        <li><a href="#" class="home">Home</a></li>
+        <li><a href="#about" class="about">About</a></li>
+        <li><a href="#works" class="works">Works</a></li>
+        <li><a href="#contact" class="contact">Contact</a></li>
+      </ul>
+    </nav>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
